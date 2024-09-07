@@ -13,13 +13,21 @@ export const metadata: Metadata = {
   icons: [{ rel: "icon", url: "/favicon.ico" }],
 };
 
+function TopNav() {
+  return (
+    <nav className="flex w-full items-center justify-between">
+      <div>Gallery</div>
+    </nav>
+  );
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
       <body className={`font-sans ${inter.variable}`}>
-        <div className="w-full">First Layout</div>
+        <TopNav />
         {children}
       </body>
     </html>
