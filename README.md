@@ -3,7 +3,7 @@
 ## TOO
 
 - [x] Make it delopy (vercel)
-- [ ] Scaffold with basic ui with mock data (shadui)
+- [x] Scaffold with basic ui with mock data (shadui)
 - [ ] Actually setup up database (vercel postgres)
 - [ ] Attach database to the UI
 - [ ] Add authentication (clerk)
