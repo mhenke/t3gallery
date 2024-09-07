@@ -4,8 +4,8 @@
 
 - [x] Make it delopy (vercel)
 - [x] Scaffold with basic ui with mock data (shadui)
-- [] Tidy up build process
-- [ ] Actually setup up database (vercel postgres)
+- [x] Tidy up build process
+- [x] Actually setup up database (vercel postgres)
 - [ ] Attach database to the UI
 - [ ] Add authentication (clerk)
 - [ ] Error management (sentry)
